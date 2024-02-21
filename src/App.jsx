@@ -8,7 +8,7 @@ function App() {
     <div className='flex flex-col gap-80'>
       {/* Heading  */}
       <div className='text-4xl font-bold text-center mt-12'>
-        <h1>Welcome to <span className='text-[#034371]'>ChatBot Support</span></h1>
+        <h1>Welcome to <span className='text-[#034371]'>AiML ChatBot</span></h1>
       </div>
 
 
@@ -19,7 +19,7 @@ function App() {
 
             <div className='flex flex-row justify-around bg-white'>
               <div className='mt-4'>
-                  <textarea cols="75" rows="10" placeholder='Please type your Medical problems only...' className='outline-none'></textarea>
+                  <textarea cols="75" rows="2" placeholder='Please type your Medical problems only...' className='outline-none'></textarea>
               </div>
 
               {/* send button  */}
