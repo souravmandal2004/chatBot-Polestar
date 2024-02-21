@@ -13,13 +13,13 @@ function App() {
 
 
       {/* Input field  */}
-      <div className='flex justify-center border-2 max-w-[800px] w-11/12 mx-auto'>
+      <div className='flex justify-center border-2 max-w-[800px] w-11/12 mx-auto rounded-md'>
 
         <div className='flex flex-col w-screen'>
 
             <div className='flex flex-row justify-around bg-white'>
-              <div className='mt-4'>
-                  <textarea cols="75" rows="2" placeholder='Please type your Medical problems only...' className='outline-none'></textarea>
+              <div className='mt-4 lg:max-w-[800px] md:max-w-[400px] sm:max-w-[50px]'>
+                  <textarea cols="75" rows="2" placeholder='Medical problems only...' className='outline-none'></textarea>
               </div>
 
               {/* send button  */}
