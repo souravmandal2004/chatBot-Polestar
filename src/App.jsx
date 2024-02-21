@@ -8,18 +8,19 @@ function App() {
     <div className='flex flex-col gap-80'>
       {/* Heading  */}
       <div className='text-4xl font-bold text-center mt-12'>
-        <h1>Welcome to <span className='text-[#034371]'>AiML ChatBot</span></h1>
+        <h1>Welcome to <span className='text-[#034371]'>ChatBot Support</span></h1>
       </div>
 
 
       {/* Input field  */}
-      <div className='flex justify-center border-2 max-w-[800px] w-11/12 mx-auto rounded-md'>
+      <div className='flex justify-center border-2 max-w-[800px] w-11/12 mx-auto rounded-lg'>
 
         <div className='flex flex-col w-screen'>
 
             <div className='flex flex-row justify-around bg-white'>
-              <div className='mt-4 lg:max-w-[800px] md:max-w-[400px] sm:max-w-[50px]'>
-                  <textarea cols="75" rows="2" placeholder='Medical problems only...' className='outline-none'></textarea>
+              <div className='mt-4'>
+                  {/* <textarea cols="75" rows="2" placeholder='Please type your Medical problems only...' className='outline-none'></textarea> */}
+                  <input type="text" placeholder='Medical problems only...' className='outline-none  lg:w-[700px] h-12 rounded-lg pl-4' />
               </div>
 
               {/* send button  */}
